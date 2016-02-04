@@ -8,7 +8,7 @@ set :port, 3000
 
 # response to '/' url
 get '/' do
-  "This is the index page"
+  "<h1>This is the index page<h1>"
 end
 
 # response to '/hello' url
