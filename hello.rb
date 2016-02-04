@@ -8,11 +8,11 @@ set :port, 3000
 
 # response to '/' url
 get '/' do
-  "<h1>This is the index page<h1>"
+  "<h1>This is the index page!</h1>"
 end
 
 # response to '/hello' url
 get '/hello' do
-  "Hello, World!"
+  "Hello, how are you?"
 end
 
